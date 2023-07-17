@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  color: white;
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 1fr 1fr;
+}
+.card-image {
+  background-image: url(/images/image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  width: 310px;
+  height: 280px;
+  margin-top: 20px;
+}
+.card-info {
+  width: 310px;
+}
+.card-info h2 {
+  margin-bottom: 10px;
+}
+.card-info p {
+  color: hsl(215, 51%, 70%);
+  padding: 10px 0;
+  font-weight: 300;
+}
+.card-info-ETH img {
+  margin-right: 7px;
+}
+.card-info-ETH .numETH {
+  color: hsl(178, 100%, 50%);
+}
+.card-info-ETH {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid hsl(215, 51%, 70%, 0.5);
+}
+.card-creator {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  font-weight: 400;
+}
+.card-creator img {
+ 
+  width: 35px;
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+ margin-bottom: 30px;
+}
+.card-creator p {
+  margin-right: 25px;
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  margin-top: 10px;
+}
+.card-creator .creator-name {
+  margin-left: -20px;
+  color: white;
+}
