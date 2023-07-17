@@ -39,6 +39,10 @@
 .card-info h2 {
   margin-bottom: 10px;
 }
+.card-info h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
 .card-info p {
   color: hsl(215, 51%, 70%);
   padding: 10px 0;
@@ -79,4 +83,8 @@
 .card-creator .creator-name {
   margin-left: -20px;
   color: white;
+}
+.card-creator .creator-name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
